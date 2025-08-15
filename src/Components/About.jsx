@@ -4,19 +4,22 @@ import Image from 'next/image';
 import deadline from '../img/deadline.jpg';
 import safarinoo from '../img/safarinoo.png';
 import echo from '../img/echo.png';
-import { FaGithub } from 'react-icons/fa';
+import {FaGithub} from 'react-icons/fa';
 
 const About = () => {
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
+        <div
+            className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 flex flex-col items-center py-8 px-4 sm:px-6 lg:px-8">
             {/* بخش معرفی */}
-            <div className="w-full max-w-4xl text-center bg-white/80 shadow-xl rounded-2xl p-6 sm:p-8 mb-10 sm:mb-12 backdrop-blur-sm animate-fadeIn">
+            <div
+                className="w-full max-w-4xl text-center bg-white/80 shadow-xl rounded-2xl p-6 sm:p-8 mb-10 sm:mb-12 backdrop-blur-sm animate-fadeIn">
                 <h2 className="text-2xl sm:text-3xl font-extrabold text-gray-800 mb-6 relative">
                     درباره من
                     <span className="block w-16 h-1 bg-blue-500 mx-auto mt-2 rounded-full"></span>
                 </h2>
                 <p className="text-base sm:text-lg text-gray-600 mb-4 leading-relaxed">
-                    سلام! من <span className="font-semibold text-blue-600">مهدی کارگر</span> هستم، توسعه‌دهنده فول‌استک وب
+                    سلام! من <span className="font-semibold text-blue-600">مهدی کارگر</span> هستم، توسعه‌دهنده فول‌استک
+                    وب
                     که عاشق خلق چیزهای جدیده. تو دوران کارشناسی با پروژه‌های چالش‌برانگیز، هم فرانت‌اند رو یاد گرفتم
                     هم بک‌اند رو تجربه کردم.
                 </p>
@@ -35,10 +38,10 @@ const About = () => {
                     href="https://github.com/your-github"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center mt-4 px-4 py-2 rounded-full bg-blue-500 text-white hover:bg-blue-600
-                               transition-all duration-300 shadow-md hover:shadow-lg text-sm sm:text-base"
+                    className="inline-flex items-center mt-4 px-4 py-2 rounded-full bg-black text-white hover:bg-white hover:text-black
+                     hover:shadow-2xl transition-all duration-300 shadow-md text-sm sm:text-base"
                 >
-                    <FaGithub size={20} className="ml-2" />
+                    <FaGithub size={20} className="ml-2"/>
                     گیت‌هاب من رو ببین
                 </Link>
             </div>
