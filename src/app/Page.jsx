@@ -1,5 +1,8 @@
-import ClientLayout from "./ClientLayout";
+import React from 'react'
 
-export default function Page() {
-    return <ClientLayout />;
+const Page = () => {
+    return (
+        <div></div>
+    )
 }
+export default Page
