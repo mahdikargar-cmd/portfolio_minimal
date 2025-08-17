@@ -25,7 +25,7 @@ const Home = () => {
           </p>
         </div>
         <div className="flex justify-center">
-          <a href="../files/Mycv.pdf" download>
+          <a href="../../public/files/Mycv.pdf" download>
             <button className="bg-green-600 text-white px-6 py-3 rounded-lg">
               دانلود رزومه
             </button>

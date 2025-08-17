@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import deadline from "../img/deadline.jpg";
-import safarinoo from "../img/safarinoo.png";
-import echo from "../img/echo.png";
+import deadline from "../../public/img/deadline.jpg";
+import safarinoo from "../../public/img/safarinoo.png";
+import echo from "../../public/img/echo.png";
 import { FaGithub } from "react-icons/fa";
 
 const About = () => {
