@@ -1,8 +1,8 @@
-import React from 'react'
 
-const Page = () => {
+export default function Example() {
     return (
-        <div></div>
-    )
+        <div>
+
+        </div>
+    );
 }
-export default Page

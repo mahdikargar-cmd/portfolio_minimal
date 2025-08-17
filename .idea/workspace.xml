@@ -40,7 +40,7 @@
       <recent name="F:\rastchin\portfolio-sam\portfolio\src\img" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -73,8 +73,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.dev" />
       </list>
     </recent_temporary>
