@@ -1,8 +1,6 @@
+"use client";
+import ClientLayout from "./ClientLayout";
 
-export default function Example() {
-    return (
-        <div>
-
-        </div>
-    );
+export default function Page() {
+  return <ClientLayout />;
 }
